@@ -61,15 +61,25 @@ html,body{
 	width: 100%;
 }
 
-.card-deck{
-	width: 100%;
-	margin: 0;
-}
+
 /*listing produits */
 
 
 /* fiche produit */
 .card_price{
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	position: relative;
+	min-width: 54px;
+    padding: 10px 16px;
+    text-align: center;
+    
+}
+.button_basket{
+	position: relative;
+	right: 100px;
+}
+
+.card_title{
+	font-size: 18px;
 }
