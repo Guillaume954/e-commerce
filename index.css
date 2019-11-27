@@ -1,0 +1,75 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+
+.copyright{
+	text-align: center;
+}
+
+.btn_reso{
+	background-color: white;
+
+}
+
+.col-md-4{
+	color: #ff5430;
+}
+
+.col-md-2{
+	color: #ff5430;
+}
+.col{
+	color:#ff5430;
+}
+
+.avis{
+	display: flex;
+	justify-content: center;
+	}
+
+.card_avis{
+	width: 860px;
+}
+
+#carouselExampleIndicators{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+}
+
+.carousel-inner{
+	display: flex;
+	justify-content: space-around;
+}
+
+/* index */
+
+/*listing produits */
+.title_listing_products{
+	display: flex;
+	justify-content: center;
+} 
+.largeur_page{
+
+	width: 100%;
+}
+
+.card-deck{
+	width: 100%;
+	margin: 0;
+}
+/*listing produits */
+
+
+/* fiche produit */
+.card_price{
+	display: flex;
+	justify-content: center;
+}
